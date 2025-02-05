@@ -8,7 +8,9 @@ halt
 print:
 addi r10 r0 65
 tty r10
+halt
 end:
+tty r2
 halt
 
 #prints A
